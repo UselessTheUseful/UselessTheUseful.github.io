@@ -21,7 +21,7 @@ body {
 }
 html {
 	max-width: 100%; 
-	background-image: url("Flag_of_France.PNG");
+	background-image: url("Flag_of_France.png");
 	background-position: center;
 	background-size: contain;
 }
