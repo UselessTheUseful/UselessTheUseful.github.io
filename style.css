@@ -1,0 +1,69 @@
+h1 {
+	background-color: lightblue;
+}
+
+h2 {
+	background-color: tomato;
+}
+
+img {
+	width: 800px; 
+	max-width: 100%; 
+	margin: auto;
+	display: block;
+}
+
+body {
+	max-width: 1080px; 
+	margin: auto;
+	background:#fff;
+	padding-top: 20px;
+}
+html {
+	max-width: 100%; 
+	background-image: url("Flag_of_France.PNG");
+	background-position: center;
+	background-size: contain;
+}
+
+.otsikko {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.johdanto {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.amx-m4 {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.amx-50 {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.amx-50-120 {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.lähteet {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.kuvasivusto {
+	border-bottom-style: solid;
+	margin-right: 5%;
+	margin-left: 5%;
+}
