@@ -1,0 +1,29 @@
+html {
+	max-width: 100%; 
+	background-image: url("Flag_of_France.png");
+	background-position: center;
+	background-size: contain;
+}
+
+img {
+	width: 800px; 
+	max-width: 100%; 
+	margin: auto;
+	display: block;
+}
+
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+main {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#pictures {
+	background-color:#fff;
+	display: flex;
+	flex-wrap: wrap;
+}

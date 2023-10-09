@@ -1,5 +1,9 @@
-h1 {
-	background-color: lightblue;
+p,a,h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2 {
+	font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
@@ -13,12 +17,6 @@ img {
 	display: block;
 }
 
-body {
-	max-width: 1080px; 
-	margin: auto;
-	background:#fff;
-	padding-top: 20px;
-}
 html {
 	max-width: 100%; 
 	background-image: url("Flag_of_France.png");
@@ -26,44 +24,48 @@ html {
 	background-size: contain;
 }
 
-.otsikko {
+body {
+  margin: 0px;
+}
+
+header {
+	background: lightblue;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	border-bottom-style: solid;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+nav a {
+	border-left-style: solid;
+	margin: 20px;
+	padding: 10px;
+}
+
+main {
+	max-width: 1080px; 
+	background:#fff;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+article {
 	margin-right: 5%;
 	margin-left: 5%;
 }
 
-.johdanto {
-	border-bottom-style: solid;
+aside {
 	margin-right: 5%;
 	margin-left: 5%;
 }
 
-.amx-m4 {
+section {
 	border-bottom-style: solid;
-	margin-right: 5%;
-	margin-left: 5%;
 }
 
-.amx-50 {
-	border-bottom-style: solid;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-
-.amx-50-120 {
-	border-bottom-style: solid;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-
-.lähteet {
-	border-bottom-style: solid;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-
-.kuvasivusto {
-	border-bottom-style: solid;
-	margin-right: 5%;
-	margin-left: 5%;
-}
