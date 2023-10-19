@@ -249,12 +249,15 @@ ul {
 	justify-content: space-evenly;
 	list-style-type: none;
 	padding: 0;
-	margin: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 figure {
 	position: relative;
-	margin: 20px;
+	margin: 10px;
 }
 
 figcaption {
