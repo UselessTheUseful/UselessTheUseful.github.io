@@ -5,11 +5,36 @@ html {
 	background-size: contain;
 }
 
+h1 {
+	background-color: tomato;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	margin-bottom: 15px;
+	margin-top: 0px;
+	padding: 5px;
+}
+
+figure {
+	margin: 0;
+	border-bottom-style: solid;
+	max-width: 800px;
+	width: 100%;
+}
+
+figcaption {
+	background-color: tomato;
+	width: 100%;
+	font-size: 16px;
+}
+
 img {
 	width: 800px; 
 	max-width: 100%; 
-	margin: auto;
-	display: block;
 }
 
 body {
@@ -24,6 +49,21 @@ main {
 
 #pictures {
 	background-color:#fff;
+	padding: 15px;
+	max-width: 900px;
+	margin: auto;
+}
+
+ul {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+	font-size: 0;
+}
+
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
