@@ -1,0 +1,112 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: #F2FDFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Syne', sans-serif;
+}
+
+p, a {
+	font-family: 'Inter', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	font-size: 20px;
+	background-color: #086788;
+}
+
+header img {
+	max-width: 100px;
+}
+
+#id1 {
+	
+}
+
+
+
+#id1 img {
+	object-fit: cover;
+	height: 500px;
+	margin: 0;
+}
+
+#id2 h3 {
+	font-size: 30px !important;
+	margin: 10px;
+}
+
+#id2 h2 {
+	font-size: 50px !important;
+	text-align: center;
+}
+
+#top-down-image {
+	transform: rotate(90deg);
+	padding: 0;
+}
+
+#top-down-image img {
+	object-fit: cover;
+	height: 600px;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	#top-down-image {
+		transform: rotate(0deg);
+		margin: 0;
+	}
+	#top-down-image img {
+		height: 940px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#top-down-image {
+		transform: rotate(0deg);
+		margin: 0;
+	}
+	#top-down-image img {
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#top-down-image img {
+		height: 900px;
+		width: 300px;
+	}
+}
+
+#id3 h2 {
+	font-size: 60px;
+	text-align: center;
+	max-width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+form {
+	max-width: 600px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+button {
+	margin: 20px;
+	padding: 20px;
+}
+
+#id4 {
+	padding: 10px;
+	background-color: #086788;
+}
