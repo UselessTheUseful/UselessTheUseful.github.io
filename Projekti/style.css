@@ -126,10 +126,17 @@ img {
 #products article {
 	max-width: 300px;
 	padding: 20px;
+	margin: 0;
+}
+
+#products a {
+	margin: 20px;
 }
 
 #products article:hover {
 	box-shadow: 4px 4px 15px 10px Gray;
+	max-width: 460px;
+	margin: 20px;
 	transition: 0.5s;
 }
 
@@ -188,6 +195,9 @@ article a:hover {
 	}
 	#company-stats {
 		width: 100%;
+	}
+	h1 {
+		font-size: 40px;
 	}
 }
 
