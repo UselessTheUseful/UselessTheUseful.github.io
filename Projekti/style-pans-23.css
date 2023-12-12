@@ -15,6 +15,7 @@ p, a {
 
 img {
 	max-width: 100%;
+	margin: 0;
 }
 
 header {
@@ -26,8 +27,8 @@ header img {
 	max-width: 100px;
 }
 
-#id1 {
-	
+#short-desc {
+	width: 100%;
 }
 
 
@@ -49,7 +50,6 @@ header img {
 }
 
 #top-down-image {
-	transform: rotate(90deg);
 	padding: 0;
 }
 
@@ -60,30 +60,18 @@ header img {
 }
 
 @media screen and (min-width: 768px) {
-	#top-down-image {
-		transform: rotate(0deg);
-		margin: 0;
-	}
 	#top-down-image img {
 		height: 940px;
 	}
 }
 
 @media screen and (min-width: 992px) {
-	#top-down-image {
-		transform: rotate(0deg);
-		margin: 0;
-	}
 	#top-down-image img {
 		height: 700px;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	#top-down-image img {
-		height: 900px;
-		width: 300px;
-	}
 }
 
 #id3 h2 {
@@ -109,4 +97,8 @@ button {
 #id4 {
 	padding: 10px;
 	background-color: #086788;
+}
+
+#id5 {
+	text-align: center;
 }

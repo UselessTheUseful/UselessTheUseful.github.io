@@ -42,6 +42,10 @@ p {
 	padding: 20px;
 }
 
+a {
+	color: white;
+}
+
 figure {
 	margin: 0;
 }
@@ -89,7 +93,6 @@ nav {
 nav a {
 	padding: 20px;
 	background-color: #A31621;
-	color: white;
 	font-size: 25px;
 }
 
@@ -123,6 +126,10 @@ img {
 	margin-bottom: 100px;
 }
 
+#products p {
+	font-size: 30px;
+}
+
 #products article {
 	max-width: 300px;
 	padding: 20px;
@@ -133,10 +140,14 @@ img {
 	margin: 20px;
 }
 
+#products a:hover {
+	margin: 10px;
+	transition: 0.5s;
+}
+
 #products article:hover {
 	box-shadow: 4px 4px 15px 10px Gray;
-	max-width: 460px;
-	margin: 20px;
+	max-width: 320px;
 	transition: 0.5s;
 }
 
@@ -158,14 +169,14 @@ article h3 {
 article a {
 	padding: 20px;
 	margin: 20px;
-	background-color: LightGray;
+	background-color: #A31621;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 
 article a:hover {
-	background-color: Gray;
+	background-color: #86131D;
 	transition: 0.5s;
 }
 
