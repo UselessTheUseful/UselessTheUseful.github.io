@@ -130,7 +130,7 @@ img {
 	font-size: 30px;
 }
 
-#products article {
+#products .card {
 	max-width: 300px;
 	padding: 20px;
 	margin: 0;
@@ -145,7 +145,7 @@ img {
 	transition: 0.5s;
 }
 
-#products article:hover {
+#products .card:hover {
 	box-shadow: 4px 4px 15px 10px Gray;
 	max-width: 320px;
 	transition: 0.5s;
@@ -161,12 +161,12 @@ img {
 	color: white;
 }
 
-article h3 {
+.card h3 {
 	margin: 20px;
 	font-size: 30px;
 }
 
-article a {
+.card a {
 	padding: 20px;
 	margin: 20px;
 	background-color: #A31621;
@@ -175,7 +175,7 @@ article a {
 	left: 0;
 }
 
-article a:hover {
+.card a:hover {
 	background-color: #86131D;
 	transition: 0.5s;
 }

@@ -27,6 +27,10 @@ header img {
 	max-width: 100px;
 }
 
+header form {
+	margin: 0;
+}
+
 #short-desc {
 	width: 100%;
 }
@@ -71,9 +75,6 @@ header img {
 	}
 }
 
-@media screen and (max-width: 768px) {
-}
-
 #id3 h2 {
 	font-size: 60px;
 	text-align: center;
@@ -95,7 +96,6 @@ button {
 }
 
 #id4 {
-	padding: 10px;
 	background-color: #086788;
 }
 
